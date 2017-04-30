@@ -1,0 +1,504 @@
+@import 'https://necolas.github.io/normalize.css/6.0.0/normalize.css'
+*:before,*,*:after
+    margin: 0px
+    padding: 0px
+    line-height: normal
+$c1: #4dc3e1
+$c2: #4D4D4D
+$c3: #1B1B1B
+$c4: #4d5be1
+$wiBas: 1000px
+.header
+    background-color: #fff
+.menu
+    max-width: $wiBas
+    height: 50px
+    margin: auto
+    font-family: 'Montserrat', sans-serif
+    &>div>a
+        text-decoration: none
+        cursor: default
+    &>div:first-child
+        display: flex
+        position: relative
+        float: left
+        top: 50%
+        transform: translateY(-50%)
+        padding-left: 10px
+        &>a>img
+            height: 40px
+            padding-right: 5px
+        &>a>p
+            font-size: 0.8em
+            text-transform: uppercase
+            color: $c3
+            transition: 0.5s
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+            &:hover
+                color: $c2
+    &>div:last-child    
+        position: relative
+        float: right
+        top: 50%
+        transform: translateY(-50%)
+        padding-right: 10px 
+        &>a
+            text-transform: uppercase
+            padding-right: 10px
+            font-size: 0.9em
+            color: $c2
+            transition: 0.5s
+            &:hover
+                color: $c3
+
+.slide-one
+    background: linear-gradient($c1, $c4)
+.slide-one-container
+    max-width: $wiBas
+    margin: 0 auto
+    height: 750px
+    &>div:first-child
+        position: relative
+        float: left
+        top: 50%
+        transform: translateY(-50%)
+        &>h2
+            text-align: center
+            font-size: 2.5em
+            font-weight: lighter
+            font-family: 'Montserrat', sans-serif
+            letter-spacing: 2px
+            color: #fff
+            text-transform: uppercase
+        &>img
+            max-width: 440px
+    &>div:last-child
+        position: relative
+        float: right
+        top: 50%
+        transform: translateY(-50%)
+        &>img
+            width: 300px
+.section-one-container
+    max-width: $wiBas
+    margin: 0 auto
+    &>div:first-child
+        position: relative
+        float: left
+        text-align: center
+        &>img
+            max-width: 300px
+    &>div:nth-child(2)
+        position: relative
+        float: right
+        max-width: 700px
+        &>h2,p
+            font-family: 'Montserrat', sans-serif
+            text-align: center
+            font-size: 1em
+            color: $c2
+            padding-bottom: 5px
+        &>div
+            text-align: center
+        &>div>img
+            width: 220px 
+            padding-right: 10px
+            padding-bottom: 10px
+.section-two-container
+    max-width: $wiBas
+    margin: 0 auto
+    text-align: center
+  
+    &>h2
+        text-transform: uppercase
+        font-family: 'Montserrat', sans-serif
+        font-size: 1em
+        color: $c2
+        padding-bottom: 20px
+    &>div
+        color: $c2
+        max-width: 500px
+        min-height: 180px
+        font-size: 2em
+        margin: auto
+        padding-top: 2%
+        padding-bottom: 3%
+         
+.trans
+    transition: 2s
+    padding: 5px
+.section-three
+    padding-bottom: 0px!important
+
+.section-three-container-one
+    padding-bottom: 5%
+    &>p
+        border-bottom: solid 3px $c1
+        font-size: 1.1em
+        font-family: 'Montserrat', sans-serif
+        font-weight: 400
+        letter-spacing: 2px
+        text-transform: uppercase
+        max-width: 1500px
+        text-align: right
+    &>div
+        max-width: $wiBas
+        margin: auto
+        &>div>img
+            max-width: 350px
+            position: relative
+            float: left
+            top: -125px
+        &>div:last-child
+            position: relative
+            float: right
+            max-width: 550px
+            text-align: center
+            margin: 0 auto
+            transform: translateY(50%)
+            &>div>img
+                margin: 0px 25px 10px 25px
+                width: 50px
+            &>p
+                font-family: 'Montserrat', sans-serif
+                color: $c2
+                font-size: 1.2em
+                padding-bottom: 15px
+                padding: 5px
+            &>p:last-child
+                font-size: 1em
+                margin-top: 5px
+.section-three-container-two
+    padding-top: 5%
+    padding-bottom: 5%
+    &>p
+        border-bottom: solid 3px $c1
+        width: 1500px
+        position: relative
+        float: right
+        font-size: 1.1em
+        font-family: 'Montserrat', sans-serif
+        font-weight: 400
+        letter-spacing: 2px
+        text-transform: uppercase
+    &>div
+        max-width: $wiBas
+        margin: 0 auto
+        &>div>img
+            max-width: 350px
+            position: relative
+            float: right
+            top: -125px
+        &>div:first-child
+            position: relative
+            float: left
+            max-width: 550px
+            text-align: center
+            margin: 0 auto
+            transform: translateY(50%)
+            &>div>img
+                margin: 0px 20px 10px 20px
+                width: 50px
+            &>p
+                font-family: 'Montserrat', sans-serif
+                color: $c2
+                font-size: 1.2em
+                padding-bottom: 15px
+                padding: 5px
+            &>p:last-child
+                font-size: 1em
+                margin-top: 5px
+
+.section-four,.section-five
+    background-color: $c1
+    padding-top: 50px
+    padding-bottom: 50px
+.section-four-container
+    max-width: $wiBas
+    margin: auto
+    text-align: center
+    color: #f1f1f1
+    font-family: 'Montserrat', sans-serif
+    &>div
+        &>h2
+            font-weight: 100
+            padding-bottom: 25px
+            font-size: 1.5em
+            letter-spacing: 2px
+            text-transform: uppercase
+        &>p
+            font-size: 1em
+            padding-bottom: 20px
+            letter-spacing: 2px
+        &>a>img
+            width: 200px
+            padding-top: 10px
+.section-five
+    padding-top: 0px!important
+.section-five-container
+    max-width: $wiBas
+    margin: auto
+    text-align: center
+    color: #f1f1f1
+    font-family: 'Montserrat', sans-serif
+    &>div>img
+        width: 70px
+        margin-bottom: 25px
+    &>div>a
+        text-decoration: none
+        padding-left: 10px
+        text-transform: uppercase
+        color: #f1f1f1
+        transition: 0.8s
+        &:hover
+            color: $c3
+    &>hr
+        margin: 15px 0px 15px 0px
+        background-color: #fff
+        border: none
+        height: 1px
+    &>div:last-child
+        font-size: 0.9em
+    &>div:last-child>span
+        text-transform: uppercase
+        letter-spacing: 2px
+        margin-left: 15px
+.picker 
+    border: solid 0px $c1
+    border-radius: 50%
+    font-size: 0px
+    border-width: thin
+    margin-left: 25px
+    padding: 7px
+    cursor: pointer
+    transition: 1s
+.colorpicker
+    background-color: $c1
+.hiden
+    display: none 
+.paddings
+    padding-top: 5%
+    padding-bottom: 10%
+.clear
+    clear: both
+    
+@media screen and (min-width: 2560px)
+    .section-three-container-one
+        &>p
+            max-width: 80%
+    .section-three-container-two
+        &>p
+            width: 80%
+@media screen and (min-width: 1200px) and (max-width: 1500px)
+    .section-three-container-one
+        &>p
+            max-width: 1250px
+    .section-three-container-two
+        &>p
+            width: 1250px
+@media screen and (min-width: 928px) and (max-width: 1119px) 
+    .paddings
+        text-align: center
+    .slide-one-container
+        max-width: 850px
+    .section-one-container
+        max-width: 910px
+    .section-three-container-one
+        &>p
+            padding-right: 7%
+        &>div
+            max-width: 910px
+    .section-three-container-two
+        &>p
+            float: none
+            width: 100%
+            padding-left: 7%
+            text-align: left
+        &>div
+            max-width: 910px
+@media screen and (min-width: 769px) and (max-width: 927px)
+    .section-one-container
+        &>div:first-child
+            position: inherit
+            float: none 
+            margin: auto
+            margin-top: 5%
+            margin-bottom: 5%
+        &>div:nth-child(2)
+            position: inherit
+            float: none
+            margin: auto
+            margin-top: 5%
+            margin-bottom: 5%
+    .section-two-container
+        &>div:last-child
+            min-height: 50px
+    .section-three-container-one
+        &>p
+            text-align: center
+        &>div
+            max-width: 750px
+            display: flex
+            margin-top: 50px
+            &>div
+                max-width: 300px
+                &>img
+                    max-width: 300px
+                    position: inherit
+                    float: none
+                    top: auto
+            &>div:last-child
+                position: inherit
+                float: none
+                text-align: center
+                margin: auto
+                transform: translateY(0%)
+    .section-three-container-two
+        &>p
+            width: 100%
+            position: inherit
+            float: none
+            text-align: center
+        &>div
+            max-width: 750px
+            display: flex
+            margin-top: 50px
+            &>div:first-child
+                position: inherit
+                float: none
+                text-align: center
+                margin: auto
+                transform: translateY(0%)
+            &>div:last-child
+                max-width: 300px
+                
+                &>img
+                    max-width: 300px
+                    position: inherit
+                    float: none
+                    top: auto
+@media screen and (max-width: 768px) 
+    body 
+         
+        overflow-x: hidden
+    .menu
+        height: auto
+        text-align: center
+        padding-top: 5px
+        padding-bottom: 5px
+        &>div:first-child
+            width: 155px
+            margin: auto
+            position: inherit
+            float: none
+            top: inherit
+            transform: translateY(0%)
+            padding: 0px
+        &>div:last-child
+            position: inherit
+            float: none
+            top: inherit
+            transform: translateY(0%)
+            padding: 0px
+    
+    .slide-one-container
+        padding-top: 10%
+        padding-bottom: 10%
+        height: auto
+        &>div:first-child
+            text-align: center
+            position: inherit
+            float: none
+            top: inherit
+            transform: translateY(0%)
+            &>img
+                width: 100%
+        &>div:last-child
+            text-align: center
+            position: inherit
+            float: none
+            top: inherit
+            transform: translateY(0%)
+    
+    .section-one-container
+        &>div:first-child
+            position: inherit
+            float: none
+            margin-top: 10%
+            margin-bottom: 5%
+        &>div:nth-child(2)
+            position: inherit
+            float: none
+            margin: auto
+            margin-top: 10%
+            margin-bottom: 5%
+            &>p
+                padding: 5px
+            &>div
+                margin-top: 5% 
+                padding: 5px
+                &>img
+                    width: 140px
+    .section-two-container
+        &>h2
+            padding-bottom: 30px
+        &>div:last-child
+            min-height: 50px
+    .section-three
+        padding-bottom: 10%!important
+    .section-three-container-one
+        padding-top: 5%
+        &>p
+            text-align: center
+        &>div
+            padding-top: 30px
+            display: flex
+            flex-wrap: wrap-reverse
+            &>div
+                 
+                text-align: center
+                margin: auto
+                &>img
+                    position: inherit
+                    float: none
+                    top: auto 
+                    width: 220px
+            &>div:last-child
+                position: inherit
+                float: none
+                top: auto
+                transform: translateY(0%)
+                padding-bottom: 25px
+                &>p
+                    font-size: 1.3em
+                &>p:last-child
+                    font-size: 1.1em
+    .section-three-container-two
+        &>p
+            width: 100%
+            position: inherit
+            float: none
+            text-align: center
+            
+        &>div
+            padding-top: 30px
+            &>div
+                text-align: center
+                &>img
+                    width: 220px
+                    position: inherit
+                    float: none
+                    top: auto
+            &>div:first-child
+                position: inherit
+                float: none
+                transform: translateY(0%)
+                padding-bottom: 25px
+                &>p
+                    font-size: 1.3em
+                &>p:last-child
+                    font-size: 1.1em
+                    padding: 5px
+            
