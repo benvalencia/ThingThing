@@ -1,5 +1,5 @@
 # ThingThing
-In this repository has the development and the resources used in the redesign of **ThingThing**.
+In this repository you will find the development and the resources used in the redesign of **ThingThing**.
 The main objective of this project is developing a better UX and UI for the landing page.
 
 ## Demo
